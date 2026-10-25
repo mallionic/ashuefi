@@ -3,7 +3,8 @@
   "id": "mallionic.uefi",
   "description": "UEFI LIBRARY FOR ASH",
   "latest": "1.0",
-  "root": "",
+  "root": "lib",
+  "exclude": ["docs/"],
   "versions": {
     "1.0": { "zip": "efi1.zip", "exclude": ["tests/"] }
   }
